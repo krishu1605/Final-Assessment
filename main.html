@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html id="main">
+
+<head>
+    <!--
+    Name: Krishna Patel
+    StudentID: 104097217
+    Date: 17/04/2022
+    Professor: Mark Meritt
+    -->
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Krishna's Resume" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Krishna's Resume</title>
+  </head>
+  <body>
+    <div class="photo">
+        <img src="images.jpeg" width="200px" height="auto" />
+    </div>
+    <div class="details">
+        <h1>Krishna Patel</h1>
+        <p>
+            <i>Computer Programmer</i>
+        </p>
+    </div>
+    <section>
+        <div class="buttons">
+          <button id="resume" a href="Krishna's Resume.pdf" Resume>
+            <img src="resume.jpg" alt="Krishna's Resume" width="55" height="40">
+          </a>Resume</button>
+
+          <button id="contact-me"> <img src="images.jpg" alt="Contact Me" width="55" height="40">Contact Me</button>
+        </div>
+      </section>
+    <hr class="seperator">
+     <section id="s1">
+                <section id="aboutme" style="margin-bottom: 0%;">
+                    <table border="0" id="myintroductiontable">
+                    
+                      <tbody>
+                        <tr>
+                            <div class="section2">
+                                <section id="s2">
+                          <th colspan="1" style="font-size:20px;width: 300px;height: 50px;font-weight: bolder;">About Me and Academic Honesty</th>
+                          <th colspan="2" style="font-size:20px;width: 300px;height: 50px;font-weight: bolder;padding-left: 15px;">Basic Information</th>
+                        </tr>
+            
+                        <tr>
+                          <th rowspan="7" style="font-size:18px;font-weight: lighter;"><p>Myself Krishna Patel from Gujarat, India. I like playing volleyball and dancing.</p><p>I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied 
+                                manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made 
+                                available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.</p></th>
+                          <th style="padding-left: 15px;">AGE:</th>
+                          <th style="font-size:18px;font-weight: lighter;">20</th>
+                        </tr>
+            
+                        <tr>
+                          <th style="padding-left: 15px;">EMAIL:</th>
+                          <th style="font-size:18px;font-weight: lighter;">kdpatel35@myseneca.ca</th>
+                        </tr>
+            
+                        <tr>
+                          <th style="padding-left: 15px;">LANGUAGE:</th>
+                          <th style="font-size:18px;font-weight: lighter;">English, Hindi, Gujarati</th>
+                        </tr>
+            
+                        <tr>
+                          <th style="padding-left: 15px;">CLASS:</th>
+                          <th style="font-size:18px;font-weight: lighter;">WEB222</th>
+                        </tr>
+            
+                        <tr>
+                          <th style="padding-left: 15px;">CLASS SECTION:</th>
+                          <th style="font-size:18px;font-weight: lighter;">NII</th>
+                        </tr>
+            
+                        <tr>
+                          <th style="padding-left: 15px;">STUDENT ID:</th>
+                          <th style="font-size:18px;font-weight: lighter;">104097217</th>
+                        </tr>
+            
+                        <tr style="padding-left: 15px;">
+                          <th style="padding-left: 15px;">INSTRUCTOR:</th>
+                          <th style="font-size:18px;font-weight: lighter;">Mark Meritt</th>
+                        </tr>
+            
+                        <tr colspan="3">
+                          <th id="now" style="font-size:18px;font-weight: lighter;"><strong>Date:&nbsp</strong></th>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </section>
+    
+                  <hr class="seperator">
+                  <div class="contact">
+                    <section>
+                        <h2>Contact Details</h2>
+                  <section id="contactmeform">
+                    <h2 style="text-align:center;margin-top: 1px;padding-top: 20px;"></h2>
+            
+                    <form id="contactme-form" action="https://httpbin.org/post" method="POST">
+                      <div class="form-group">
+                      <label for="Name" style="font-size: 22px;font-weight: bolder;height: 5px;margin-top: 1px;"><span class="text-danger">*</span>Name:</label>
+                      <input class="form-control" id="Name" type="text" placeholder="Name" autocomplete="given-name" required tabindex="1">
+                      </div>
+            
+                      <div class="form-group">
+                        <label for="Email" style="font-size: 22px;font-weight: bolder;height: 5px;margin-top: 1px;"><span class="text-danger">*</span>Email:</label>
+                        <input id="Email" type="email" placeholder="Email" required tabindex="2">
+                      </div>
+            
+                      <div class="form-group">
+                        <label for="Address" style="font-size: 22px;font-weight: bolder;height: 5px;margin-top: 1px;"><span class="text-danger">*</span>Address:</label>
+                        <input id="Address" type="txt"  placeholder="Address" required tabindex="3">
+                      </div>
+            
+                      <div class="form-group">
+                        <label for="PostalCode" style="font-size: 22px;font-weight: bolder;height: 5px;margin-top: 1px;"><span class="text-danger">*</span>PostalCode:</label>
+                        <input id="postal-code" type="txt" placeholder="M6L 1B4" required tabindex="4">
+                      </div>
+            
+                      <div class="form-group">
+                        <label for="City" style="font-size: 22px;font-weight: bolder;height: 5px;margin-top: 1px;"><span class="text-danger">*</span>City:</label>
+                        <select class="form-froup" name="city" id="city" autocomplete="address-level1" tabindex="6" required style="font-size: 12px;font-weight: lighter;width: 165px; height: 25px;margin-top: 1px;">
+                          <option>Brampton</option>
+                          <option>Toronto</option>
+                          <option>Vancouver</option>
+                          <option>Calgary</option>
+                          <option>Ottawa</option>
+                          <option>Charlottetown</option>
+                          <option>Saskatoon</option>
+                        </select>
+                      </div>
+            
+                      <div class="form-group">
+                        <label for="phone" style="font-size: 22px;font-weight: bolder;height: 5px;margin-top: 1px;font-weight: lighter;"><span style="padding-left: 1em;"></span><strong>Phone</strong>(opt.)<strong>:</strong></label>
+                        <input id="phone" type="number" placeholder="Phone Number" tabindex="5">
+                      </div>
+            
+            
+            
+                          <div>
+                            <label class="form-label me-3" style="font-size: 20px; display:flex;text-align:left;text-align-last:left;padding-bottom: 10px;padding-left: 175px;"><span class="text-danger">*</span>Options:</label>
+            
+                            <div class="form-check form-check-inline">
+            
+                              <input class="formoption1" type="radio" name="options" id="options-question" value="question" tabindex="7" checked style="padding-right: 10px;visibility: visible;">
+                              <label class="formoption2" for="options-question" style="font-size:18px;font-weight: lighter;margin:0px;padding: 0px;visibility: visible;">Question</label>
+            
+                            <input class="formoption3" type="radio" name="options" id="options-comment" value="comment" tabindex="8" style="visibility: visible;">
+                            <label class="formoption4" for="options-comment" style="font-size:18px;font-weight: lighter;margin:0px;padding: 0px;visibility: visible;">Comment</label>
+            
+                            <input class="form-check-input" type="radio" name="options" id="options-hiring" value="hiring" tabindex="9">
+                            <label class="form-check-label" for="options-hiring" style="font-size:18px;font-weight: lighter;  margin:0px;padding: 0px;">Hiring</label>
+                         </div>
+            
+                         <div class="form-check form-check-inline">
+                          <label class="salary2" for="options-question" style="font-size:18px;font-weight: lighter;margin:0px;padding-left: 30px; text-align: right;visibility: hidden;"><span class="text-danger">*</span>Hourly Rate:</label>
+                          <input class="salary1" type="number" name="salary" id="salary" placeholder="Hourly Rate" tabindex="15" checked style="padding-right: 10px;visibility: hidden;" required>
+                         </div>
+            
+                      <div>
+                        <label for="description" class="form-label" style="font-size: 20px; display:flex;text-align:left;text-align-last:left;padding-bottom: 35px;padding-left: 175px;"><span class="text-danger">*</span>Description:</label>
+                        <div>
+                          <textarea id="description" name="description" class="form-control" tabindex="10" required rows="5" style="width: 550px;height: 200px;"></textarea>
+                        </div>
+                      </div>
+            
+                      <div class="d-flex flex-row-reverse">
+                        <input class="btn-primary" type="submit" value="Send" name="send" id="send" tabindex="11">
+                        <input class="btn-secondary" type="reset" value="Reset" name="reset" id="reset" tabindex="12">
+                      </div>
+            
+            
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./final.js"></script>
+</body>
+
+<footer>
+    <a href="#"></a>
+  </footer>
+  <script src="./final.js"></script>
+</body>
+</html>
